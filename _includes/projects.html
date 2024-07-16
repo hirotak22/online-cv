@@ -16,23 +16,15 @@
   </div><!--//intro-->
   {% endif %}
 
-  {% for project in projects.assignments %}
-    <div class="item">
-
-      <span class="project-title">
-        {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
-        {% else %}
-        {{ project.title }}
-        {% endif %}
-      </span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
-
-    </div><!--//item-->
-  {% endfor %}
+  <div class="item">
+    <ul>
+      <li><b><u></u>廣田佳亮</u></b>, 山田拓司. <b>Development of deep learning model for gene function prediction</b>, 2023年日本バイオインフォマティクス学会年会 第12回生命医薬情報学連合大会, P-13, 柏の葉カンファレンスセンター, 2023年9月(ポスター発表)</li>
+      
+      <li><b><u></u>廣田佳亮</u></b>, 山田拓司. <b>オーファン酵素遺伝子探索のための深層学習を用いた酵素機能予測モデルの開発</b>, 第18回日本ゲノム微生物学会年会, 3O1-08, かずさアカデミアホール, 2024年3月(口頭発表)</li>
+      
+      <li><b><u></u>廣田佳亮</u></b>, 山田拓司. <b>オーファン酵素遺伝子特定のための酵素機能予測モデルの開発</b>, 日本農芸化学会2024年度大会, 2B4p06, 東京農業大学世田谷キャンパス, 2024年3月(口頭発表)</li>
+    </ul>
+  </div>
 
 </section><!--//section-->
 {% endif %}
